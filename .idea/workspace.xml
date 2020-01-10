@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce2f5968-e01e-4f89-9b9d-1541ac5ded92" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1W3YiagdUaR20B4HJ5hO0iKDDG3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\PycharmProjects\OCR - Text and Number" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ocr">
+    <configuration name="ocr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR - Text and Number" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_plate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OCR - Text and Number" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_plate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ocr" />
+        <item itemvalue="Python.read_plate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce2f5968-e01e-4f89-9b9d-1541ac5ded92" name="Default Changelist" comment="" />
+      <created>1578379873050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578379873050</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578584565865">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578584565865" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1578556872400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578556872400" />
+    <state width="1345" height="243" key="GridCell.Tab.0.bottom" timestamp="1578592550205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="243" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578592550205" />
+    <state width="1345" height="243" key="GridCell.Tab.0.center" timestamp="1578592550205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="243" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578592550205" />
+    <state width="1345" height="243" key="GridCell.Tab.0.left" timestamp="1578592550205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="243" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578592550205" />
+    <state width="1345" height="243" key="GridCell.Tab.0.right" timestamp="1578592550205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="243" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578592550205" />
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578629552699">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578629552699" />
+  </component>
+</project>
