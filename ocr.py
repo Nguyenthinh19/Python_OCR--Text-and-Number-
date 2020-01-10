@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import pytesseract
+import re
 
 
 # get grayscale image
@@ -59,19 +60,33 @@ def deskew(image):
 def match_template(image, template):
     return cv2.matchTemplate(image, template, cv2.TM_CCOEFF_NORMED)
 
-img = cv2.imread('test1.png')
+img = cv2.imread("test1.jpg")
 gray = get_grayscale(img)
 thresh = thresholding(gray)
 opening = opening(gray)
 canny = canny(gray)
 
 pytesseract.pytesseract.tesseract_cmd = r"Tesseract-OCR\\tesseract.exe"
+char = 'qewrytiuopadfghkjlzcvxbnm'
 
 #custom_config = r'--oem 3 --psm 6 outputbase digits'
-print( pytesseract.image_to_string(thresh,lang= "eng"))
+#custom_config2 = r'-c tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQSRTUVWXYZ --psm 6'
+text = pytesseract.image_to_string(thresh,lang= "eng")
+print("Nhân dạng văn bản :")
+print(text)
+text = re.sub('\n', ' ', text)
+text = re.sub('\s+', ' ', text)
+#lọc chữ số
+number = '\d+'
+findnum = re.findall(number, text)
+for i in text:
+    if i.lower() not in char and i != ' ':
+        text = text.replace(i, '')
 
-#custom_config2 = r'-c tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyz --psm 6'
-#print( pytesseract.image_to_string(thresh, config=custom_config2))
+
+print("Lọc ra số :",findnum)
+print("Lọc ra text :",text)
+
 
 
 
