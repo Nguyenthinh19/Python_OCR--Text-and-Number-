@@ -15,7 +15,7 @@ def fine_tune(lp):
             newString += lp[i]
     return newString
 
-# Đường dẫn ảnh, các bạn đổi tên file tại đây để thử nhé
+# Đường dẫn ảnh
 img_path = "test2.jpg"
 
 # Load model LP detection

@@ -60,6 +60,7 @@ def deskew(image):
 def match_template(image, template):
     return cv2.matchTemplate(image, template, cv2.TM_CCOEFF_NORMED)
 
+# đọc ảnh và tiền xử lý ảnh
 img = cv2.imread("test1.jpg")
 gray = get_grayscale(img)
 thresh = thresholding(gray)
@@ -74,6 +75,7 @@ char = 'qewrytiuopadfghkjlzcvxbnm'
 text = pytesseract.image_to_string(thresh,lang= "eng")
 print("Nhân dạng văn bản :")
 print(text)
+
 text = re.sub('\n', ' ', text)
 text = re.sub('\s+', ' ', text)
 #lọc chữ số
@@ -82,7 +84,6 @@ findnum = re.findall(number, text)
 for i in text:
     if i.lower() not in char and i != ' ':
         text = text.replace(i, '')
-
 
 print("Lọc ra số :",findnum)
 print("Lọc ra text :",text)
